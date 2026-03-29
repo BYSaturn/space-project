@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestClassifier
 from skyfield.api import EarthSatellite, load, wgs84
 
 st.set_page_config(
-    page_title="TÜRKSAT Uydu Güvenliği",
+    page_title="Türk Uyduları İçin Yapay Zekâ Destekli Uzay Çöpü Tespiti ve Olası Çarpışma Tahmin Sistemi",
     page_icon="🛰️",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -104,8 +104,8 @@ with top_cols[0]:
     st.markdown("""
     <div style="display: flex; align-items: center; gap: 14px; margin-top: 2px;">
         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" style="filter: drop-shadow(0 0 6px rgba(56,189,248,0.4));"><path d="M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
-        <span style="color: #f8fafc; font-size: 24px; font-weight: 700; letter-spacing: 1px;">
-            TÜRKSAT <span style="color: #38bdf8; font-weight: 500;">UZAY KOMUTA</span>
+        <span style="color: #f8fafc; font-size: 18px; font-weight: 700; letter-spacing: 0.5px; line-height: 1.2;">
+            Türk Uyduları İçin Yapay Zekâ Destekli <span style="color: #38bdf8; font-weight: 500;">Uzay Çöpü Tespiti ve Olası Çarpışma Tahmin Sistemi</span>
         </span>
     </div>
     """, unsafe_allow_html=True)
